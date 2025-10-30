@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.VITE_BASE_PATH || "/",
+  base: process.env.VITE_BASE_PATH || "/lease-flow",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
